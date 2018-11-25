@@ -1,1 +1,14 @@
+No natural way to convert a qualitative response variable with more than two levels into a quantitative response that is ready for linear regression. If binary qualitative response then can use dummy variable to code response, otherwise classification method should be used
+
+Logistic regression models the probability that Y belongs to a par- ticular category. Logistic function used in logistic regression which always produces S-Shaped curve prediction between 0 - 1 (P146 for equation)
+
+Maximum likelihood method used in logistic regression model. Try to find βˆ0 and βˆ1 such that plugging these estimates into the model for p(X), given in (4.2), yields a number close to one for all individuals who defaulted, and a number close to zero for all individuals who did not.
+
+Multiple linear regression
+- Maximum likelihood method used to estimate regressors
+- Confounding: Variable that influences both independent and dependent variable
+
+Linear discrimant analysis
+- Linear discriminant analysis popular when > 2 response Classes
+- In this alternative approach, we model the distribution of the predictors X separately in each of the response classes (i.e. given Y ), and then use Bayes’ theorem to flip these around into estimates for Pr(Y = k|X = x).
 
